@@ -60,16 +60,20 @@ Para cada linguagem:
 1. escreva três palavras que pertencem à linguagem;
 
    Pertencem a linguagem L1: "01", "101", "1101".
+   
    Pertencem a linguagem L2: "ab", "aabb", "aaabbb".
+   
    Pertencem a linguagem L3: "abc", "aabbcc", "aaabbbccc".
    
 3. escreva duas palavras que não pertencem;
 
    Não pertencem a linguagem L1: "10", "111".
+   
    Não pertencem a linguagem L2: "a", "aab".
+   
    Não pertencem a linguagem L3: "bc", "abcc"
    
-4. diga, se souber, em qual classe ela provavelmente se encaixa;
+5. diga, se souber, em qual classe ela provavelmente se encaixa;
 
    Todas elas se encaixam na classe de liguagens regulares.
    
