@@ -105,9 +105,10 @@ q2 --1--> q0
 Responda:
 
 1. Qual linguagem esse autômato parece reconhecer?
+
    Esse autômato reconhece a linguagem L = { w em {0,1}* | w termina com 01 }, pois o autômato somente chegará no estado final (q2) ao ter lido um 0 seguido de um 1, obrigatoriamente nesta ordem.
    
-2. Execute manualmente as cadeias abaixo e diga se aceita ou rejeita:
+3. Execute manualmente as cadeias abaixo e diga se aceita ou rejeita:
 
    - `01`: (q0, 0) -> q1, (q1,  1) -> q2. Automato a aceita.
    - `101`: (q0, 1) -> q0, (q0, 0) -> q1, (q1,  1) -> q2. Automato a aceita.
@@ -115,7 +116,7 @@ Responda:
    - `1101`: (q0, 1) -> q0, (q0, 1) -> q0, (q0, 0) -> q1, (q1,  1) -> q2. Automato a aceita.
    - `111`: (q0, 1) -> q0, (q0, 1) -> q0, (q0, 1) -> q0. Automato a rejeita
    
-3. Monte uma tabela curta mostrando o caminho dos estados para pelo menos duas cadeias.
+4. Monte uma tabela curta mostrando o caminho dos estados para pelo menos duas cadeias.
 
    "01" (aceita):
    
