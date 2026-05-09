@@ -28,19 +28,22 @@ Explique, com suas palavras e com um exemplo simples, usando o alfabeto `Sigma =
 
 1. O que é um alfabeto?
 
-   Um alfabeto é um conjunto finito de símbolos.
+   Um alfabeto é um conjunto finito de símbolos. Por exemplo, o alfabeto Sigma = {a, b}, apresentado no enunciado, é um conjunto finito de simbolos formado pelos elementos 'a' e 'b' e o 'conjunto vazio'.
    
 3. O que é uma cadeia? 
 
-   Uma cadeia é uma sequência de símbolos justapostos.
+   Uma cadeia é uma sequência de símbolos justapostos. Para o alfabeto apresentado, tem-se o exemplo "aabb".
    
 4. O que é uma linguagem?  
 
-   Uma linguagem é um conjunto de palavras.
+   Uma linguagem é um conjunto de palavras. Por exemplo, L = {w | w é formado pelo alfabeto {a, b}}.
    
 5. O que é uma gramática? 
 
-   Conjunto de regras para gerar uma linguagem.
+   Conjunto de regras para gerar uma linguagem. 
+   Por exemplo, 
+      S -> aS
+      S -> b
 
 ## 3. Linguagens
 
