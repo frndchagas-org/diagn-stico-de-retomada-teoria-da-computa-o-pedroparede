@@ -27,12 +27,19 @@ Marque cada tópico como: lembro bem, lembro parcialmente, não lembro, nunca vi
 Explique, com suas palavras e com um exemplo simples, usando o alfabeto `Sigma = {a, b}`.
 
 1. O que é um alfabeto?
+
    Um alfabeto é um conjunto finito de símbolos.
-2. O que é uma cadeia? 
+   
+3. O que é uma cadeia? 
+
    Uma cadeia é uma sequência de símbolos justapostos.
-3. O que é uma linguagem?  
+   
+4. O que é uma linguagem?  
+
    Uma linguagem é um conjunto de palavras.
-4. O que é uma gramática? 
+   
+5. O que é uma gramática? 
+
    Conjunto de regras para gerar uma linguagem.
 
 ## 3. Linguagens
@@ -48,16 +55,23 @@ L3 = { a^n b^n c^n | n >= 0 }
 Para cada linguagem:
 
 1. escreva três palavras que pertencem à linguagem;
+
    Pertencem a linguagem L1: "01", "101", "1101".
    Pertencem a linguagem L2: "ab", "aabb", "aaabbb".
    Pertencem a linguagem L3: "abc", "aabbcc", "aaabbbccc".
-2. escreva duas palavras que não pertencem;
+   
+3. escreva duas palavras que não pertencem;
+
    Não pertencem a linguagem L1: "10", "111".
    Não pertencem a linguagem L2: "a", "aab".
    Não pertencem a linguagem L3: "bc", "abcc"
+   
 4. diga, se souber, em qual classe ela provavelmente se encaixa;
+
    Todas elas se encaixam na classe de liguagens regulares.
-5. explique o motivo em linguagem simples.
+   
+6. explique o motivo em linguagem simples.
+
    O motivo disso é que elas podem ser lidas por um autômato finito determinístico.
 
 Não há problema em dizer "não sei". Nesse caso, escreva o que te deixou em dúvida.
@@ -86,17 +100,22 @@ Responda:
    Esse autômato reconhece a linguagem L = { w em {0,1}* | w termina com 01 }, pois o autômato somente chegará no estado final (q2) ao ter lido um 0 seguido de um 1, obrigatoriamente nesta ordem.
    
 2. Execute manualmente as cadeias abaixo e diga se aceita ou rejeita:
+
    - `01`: (q0, 0) -> q1, (q1,  1) -> q2. Automato a aceita.
    - `101`: (q0, 1) -> q0, (q0, 0) -> q1, (q1,  1) -> q2. Automato a aceita.
    - `100`: (q0, 1) -> q0, (q0, 0) -> q1, (q1, 0) -> q1. Automato a rejeita.
    - `1101`: (q0, 1) -> q0, (q0, 1) -> q0, (q0, 0) -> q1, (q1,  1) -> q2. Automato a aceita.
    - `111`: (q0, 1) -> q0, (q0, 1) -> q0, (q0, 1) -> q0. Automato a rejeita
+   
 3. Monte uma tabela curta mostrando o caminho dos estados para pelo menos duas cadeias.
+
    "01" (aceita): 
+
    |(q0, 0)| -> |q1|
    |(q1,  1)| -> |q2|
    
    "100" (rejeita): 
+
    |(q0, 1)| -> |q0|
    |(q0, 0)| -> |q1|
    |(q1, 0)| -> |q1|
@@ -113,14 +132,22 @@ S -> b
 Responda:
 
 1. Gere cinco cadeias produzidas por essa gramática.
+
    É possível escrever estas cinco cadeias, produzidas pela gramática apresentada: "aa", "ab", "aab", "aaab", "a".
+   
 3. Descreva a linguagem em palavras.
-   Pode-se escreve a linguagem gerada por essa gramática da seguinte forma: L = { w em {a,b}* | w termina em "b" e "b" aparece apenas uma vez}
-4. Essa gramática parece regular, livre de contexto ou outra classe? Justifique de forma simples.
-   Essa linguagem parece ser regular, pois pode ser lida por um autômato finito. 
+
+   Pode-se escreve a linguagem gerada por essa gramática da seguinte forma: L = { w em {a,b}* | w termina em "b" e "b" aparece apenas uma vez}.
+   
+5. Essa gramática parece regular, livre de contexto ou outra classe? Justifique de forma simples.
+
+   Essa linguagem parece ser regular, pois pode ser lida por um autômato finito.
+   
    Por exemplo: 
+
       |(q0, a)| -> |q0|
       |(q0, b)| -> |q1|
+   
    Onde q0 e q1 são os estados finais.
 
 ## 6. Ponto de dificuldade
@@ -128,12 +155,17 @@ Responda:
 Escolha um tópico da lista inicial e escreva:
 
 1. o que você entende dele;
+
    Tópico escolhido: linguagem.
    Entendo que uma linguagem é um conjunto de cadeias em um alfabeto. Também entendo que uma linguagem regular é aquela que pode ser lida por um autômato finito.
-2. onde você se confunde;
+   
+3. onde você se confunde;
+
    Me confundo nas linguagens livres de contexto, sensíveis ao contexto e irrestritas. Não compreendo as definições de suas gramáticas e, portanto, não consigo definí-las.
-3. que tipo de explicação ajudaria: desenho, exemplo, exercício guiado, analogia, prova passo a passo ou lista curta.
-   Acredito que o que poderia me auxiliar seria uma revisão da definição genérica de gramática, seguida de uma explicação das definições formais de gramática regular, livre de contexto, sensível ao contexto e irrestrita.
+   
+5. que tipo de explicação ajudaria: desenho, exemplo, exercício guiado, analogia, prova passo a passo ou lista curta.
+
+   Acredito que o que poderia auxiliar seria uma revisão da definição genérica de gramática, seguida de uma explicação das definições formais de gramática regular, livre de contexto, sensível ao contexto e irrestrita.
    Nisso, poderiam ser aplicados os métodos de "prova passo a passo" e "exemplos" e, também, "exercícios guiados" e "lista curta", para fixação.
 
 ## 7. Uso de IA, se houver
