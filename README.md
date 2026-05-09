@@ -172,6 +172,7 @@ Escolha um tópico da lista inicial e escreva:
 1. o que você entende dele;
 
    Tópico escolhido: linguagem.
+   
    Entendo que uma linguagem é um conjunto de cadeias em um alfabeto. Também entendo que uma linguagem regular é aquela que pode ser lida por um autômato finito.
    
 3. onde você se confunde;
