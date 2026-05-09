@@ -41,9 +41,11 @@ Explique, com suas palavras e com um exemplo simples, usando o alfabeto `Sigma =
 5. O que é uma gramática? 
 
    Conjunto de regras para gerar uma linguagem. 
-   Por exemplo, 
+   Por exemplo,
+   
       S -> aS
-      S -> b
+   
+      S -> b.
 
 ## 3. Linguagens
 
