@@ -19,7 +19,7 @@ Marque cada tópico como: lembro bem, lembro parcialmente, não lembro, nunca vi
 - linguagem sensível ao contexto: não lembro
 - linguagem irrestrita: não lembro
 - hierarquia de Chomsky: lembro parcialemente
-- computabilidade: não tenho certeza
+- computabilidade: não tenho certeza (houve apenas uma pequena introdução ao tema até o momento, não foi possível aprofundá-lo)
 - máquina de Turing: lembro bem
 
 ## 2. Definições com exemplo
