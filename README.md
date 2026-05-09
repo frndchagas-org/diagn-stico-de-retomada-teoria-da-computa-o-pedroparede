@@ -79,7 +79,8 @@ Para cada linguagem:
    
 6. explique o motivo em linguagem simples.
 
-   O motivo disso é que elas podem ser lidas por um autômato finito determinístico.
+   O motivo disso é que elas podem ser aceitas por um autômato finito.
+   Linguagens aceitas por autômato finito são chamadas linguagens regulares.
 
 Não há problema em dizer "não sei". Nesse caso, escreva o que te deixou em dúvida.
 
