@@ -111,14 +111,14 @@ Responda:
 
    "01" (aceita): 
 
-   |(q0, 0)| -> |q1|
-   |(q1,  1)| -> |q2|
+   | (q0, 0) | -> | q1 |
+   | (q1, 1) | -> | q2 |
    
    "100" (rejeita): 
 
-   |(q0, 1)| -> |q0|
-   |(q0, 0)| -> |q1|
-   |(q1, 0)| -> |q1|
+   | (q0, 1) | -> | q0 |
+   | (q0, 0) | -> | q1 |
+   | (q1, 0) | -> | q1 |
    
 ## 5. Gramática
 
@@ -145,8 +145,8 @@ Responda:
    
    Por exemplo: 
 
-      |(q0, a)| -> |q0|
-      |(q0, b)| -> |q1|
+      | (q0, a) | -> | q0 |
+      | (q0, b) | -> | q1 |
    
    Onde q0 e q1 são os estados finais.
 
