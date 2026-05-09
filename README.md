@@ -188,7 +188,7 @@ Escolha um tópico da lista inicial e escreva:
 
 Se você usou IA depois da primeira tentativa, registre:
 
-Não usei IA para responder as questões, mas li o livro "Linguagens Formais e Autômatos", do Menezes, e vi algumas vídeo aulas, para poder lembrar de alguns conceitos. 
+Não usei IA para responder as questões, mas li o livro "Linguagens Formais e Autômatos", do Menezes, e vi algumas vídeo aulas, para lembrar de alguns conceitos. 
 
 ```text
 Pergunta feita:
